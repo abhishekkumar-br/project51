@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import ChatPanel from './components/ChatPanel';
 import { ChatMessage, SenderType } from './types';
 import { getInitialMessages, textToAscii } from './utils';
@@ -379,6 +380,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
