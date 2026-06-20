@@ -1,0 +1,6 @@
+{
+  "name": "Project 3543",
+  "description": "An ultra-secure, classified twin-screen messaging interface styled after iMessage for Her and Him, transmitting secret digit streams with on-demand deciphering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
